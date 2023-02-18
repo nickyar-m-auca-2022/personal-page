@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+        box-sizing: border-box;
+    }
+    body {
+    background: url("https://bit.ly/hw4meena"); /* replace yellow image web address FuMing emails you */ opacity: .5;
+    background-repeat: no-repeat;
+    }
+    .container {
+         max-width: 1400px;
+         display: flex;
+         flex-wrap: wrap;
+         gap: 20px;
+         
+    }
+    .container > * {
+         background-color: lightblue;
+         font-size: 10rem;
+    color: blue;
+         border: 2px dashed blue;
+    }
+    .box1{
+        width: 953px;
+        height: 200px;
+
+    }
+    .box2{
+        height: 200px;
+        width: 204px;
+    }
+    .box3{
+        height: 200px;
+        width: 204px;
+    }
+    .box4{
+        height: 200px;
+        width: 1500px;
+    }
+    .box5{
+        height: 200px;
+        width: 391px;
+    }
+    .box6{
+        height: 200px;
+        width: 989px;
+    }
