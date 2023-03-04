@@ -1,1 +1,62 @@
-y
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(https://cdn.imgchest.com/files/l4necm6rp4m.png);
+    background-repeat: no-repeat;
+    max-width: 1121px;
+    min-height: 1430px;
+    font-size: 2rem;
+    opacity: .5;
+    color: blue;
+}
+.container {
+    display: grid;
+    grid-template-rows:120px 31px 94px 77px 414px 195px 494px 130px 130px 130px;
+    grid-template-areas: 
+    "one one one one"
+   "two two two two"
+   "three eight eight eight"
+   "four four four four"
+   "five five five nine"
+   "six six six six"
+   "seven seven ten ten";
+   grid-template-columns: 272px 474px 86px 287px;
+
+  
+}
+.container > * {
+    border: 2px dashed blue;
+}
+.box1 {
+    grid-area: one ;
+}
+.box2 {
+    grid-area: two ;
+}
+.box3{
+    grid-area: three;
+}
+
+.box4{
+    grid-area: four;
+}
+.box5{
+    grid-area: five ;
+}
+.box6{
+    grid-area: six;
+}
+.box7{
+    grid-area: seven ;
+}
+.box8{
+    grid-area: eight;
+}
+.box9 {
+    grid-area: nine;
+}
+.box10 {
+    grid-area: ten ;
+}
