@@ -52,26 +52,40 @@ body {
 }
 ul {
     display: flex;
-    font-family: ;
-   flex-wrap: inherit;
-   list-style: none;
+    height: 100%;
    align-items: center;
-   justify-content: space-between;
+   font-family: system-ui;
+    font-size: 16px;
+    font-weight: 400;
+    flex-wrap: inherit;
+    color: rgb(33,37,41,.75);
+    list-style: none;
+    flex-basis: 100;
     
 }
 .wea{
-    font-size: 20px;
-    margin: 7px;
-    padding-top: 20px;
-    font-family: var(--bs-body-font-family);
-    border: 1 dashed red;
+    flex-basis: 100;
+
 
 }
 .main{
-    padding-left: 217px;
-    font-size: 18px;
-    padding-top: 17px;
+   flex-basis: 100;
 
+}
+.cat{
+    flex-basis: 150;
+}s
+.arch{
+    flex-basis: 200;
+}
+.naza{
+    flex-basis: 200;
+}
+.live{
+    flex-basis: 200;
+}
+.liv{
+    flex-basis: 200;
 }
 
 .box5{
