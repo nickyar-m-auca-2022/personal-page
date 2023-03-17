@@ -17,8 +17,8 @@ body {
 }
 .container {
     display: grid;
-    grid-template-rows: 120px 31px 94px 77px 414px 195px 494px;
-    grid-template-areas: 
+    grid-template-rows: 120px 31px 94px 77px 414px 195px 494px; 
+    grid-template-areas:
     "one one one one"
    "two two two two"
    "three eight eight eight"
@@ -26,7 +26,8 @@ body {
    "five five five nine"
    "six six six six"
    "seven seven ten ten";
-   grid-template-columns: 272px 474px 86px 287px;
+   grid-template-columns: minmax(20px,272px) minmax(20px,473px) minmax(20px,88px) minmax(20px,286px);
+   /*minmax(20px,272px) 474px 86px 287px;*/
 
   
 }
@@ -60,32 +61,32 @@ ul {
     flex-wrap: inherit;
     color: rgb(33,37,41,.75);
     list-style: none;
-    flex-basis: 100;
+    
     
 }
 .wea{
-    flex-basis: 100;
+    flex-basis: 481px;
 
 
 }
 .main{
-   flex-basis: 100;
+   flex-basis: 147px;
 
 }
 .cat{
-    flex-basis: 150;
-}s
+    flex-basis: 173px;
+}
 .arch{
-    flex-basis: 200;
+    flex-basis: 119px;
 }
 .naza{
-    flex-basis: 200;
+    flex-basis: 136px;
 }
 .live{
-    flex-basis: 200;
+    flex-basis: 220px;
 }
 .liv{
-    flex-basis: 200;
+    flex-basis: 197px;
 }
 
 .box5{
