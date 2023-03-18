@@ -30,10 +30,10 @@ body {
     border: 2px dashed blue;
 }
 .box1 {
-    grid-area: one ;
+    grid-area: one;
 }
 .box2 {
-    grid-area: two ;
+    grid-area: two;
 }
 .box3{
     grid-area: three;
@@ -43,13 +43,13 @@ body {
     grid-area: four;
 }
 .box5{
-    grid-area: five ;
+    grid-area: five;
 }
 .box6{
     grid-area: six;
 }
 .box7{
-    grid-area: seven ;
+    grid-area: seven;
 }
 .box8{
     grid-area: eight;
@@ -58,5 +58,5 @@ body {
     grid-area: nine;
 }
 .box10 {
-    grid-area: ten ;
+    grid-area: ten;
 }
