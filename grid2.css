@@ -17,7 +17,8 @@ body {
 }
 .container {
     display: grid;
-    grid-template-rows: 120px 31px 94px 77px 414px 195px 494px; 
+    grid-template-rows: minmax(111px,auto)  minmax(31px,auto)  minmax(94px,auto) minmax(77px,auto) minmax(414px,auto) minmax(195px,auto) minmax(494px,auto);
+     /*120px 31px 94px 77px 414px 195px 494px; */
     grid-template-areas:
     "one one one one"
    "two two two two"
@@ -54,39 +55,41 @@ body {
 ul {
     display: flex;
     height: 100%;
-   align-items: center;
-   font-family: system-ui;
+    justify-content: center;
+    align-items: center;
+    font-family: system-ui;
     font-size: 16px;
     font-weight: 400;
-    flex-wrap: inherit;
-    color: rgb(33,37,41,.75);
+    flex-wrap: wrap;
+    color: #585c5e;
     list-style: none;
+    background-color:(--bs-body-bg);
     
     
 }
 .wea{
-    flex-basis: 481px;
-
-
+    flex-basis: 339px;
+    color: #000000;
+    font-size: 17.5px;
+   
 }
 .main{
-   flex-basis: 147px;
-
+   flex-basis: 107px;
 }
 .cat{
-    flex-basis: 173px;
+    flex-basis: 128px;
 }
 .arch{
-    flex-basis: 119px;
+    flex-basis: 87px;
 }
 .naza{
-    flex-basis: 136px;
+    flex-basis: 99px;
 }
 .live{
-    flex-basis: 220px;
+    flex-basis: 159px;
 }
 .liv{
-    flex-basis: 197px;
+    flex-basis: 134px;
 }
 
 .box5{
