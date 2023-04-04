@@ -1,0 +1,144 @@
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+img:nth-of-type(1){
+    display: none;
+}
+body {
+    background-image: none;
+    opacity: 1;
+    background-repeat: no-repeat;
+    max-width: 1121px;
+    min-height: 1430px;
+    font-size: 2rem;
+    opacity: .5;
+    color: blue;
+}
+.container {
+    display: grid;
+    grid-template-rows: minmax(111px,auto)  minmax(31px,auto)  minmax(94px,auto) minmax(77px,auto) minmax(414px,auto) minmax(195px,auto) minmax(494px,auto);
+     /*120px 31px 94px 77px 414px 195px 494px; */
+    grid-template-areas:
+    "one one one one"
+    "four four four four"
+   "three eight eight eight"
+   "two two two two"
+   "five five five nine"
+   "six six six six"
+   "seven seven ten ten";
+   grid-template-columns: minmax(20px,272px) minmax(20px,473px) minmax(20px,88px) minmax(20px,286px);
+   /*minmax(20px,272px) 474px 86px 287px;*/
+
+  
+}
+.container > * {
+    border: 2px dashed blue;
+}
+.box1 {
+    grid-area: one;
+}
+.box2 {
+    grid-area: two;
+}
+.box3{
+    grid-area: three;
+}
+
+.box4{
+    grid-area: four;
+}
+.box4{
+    
+    
+}
+ul {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+    /* align-items: center; */
+    font-family: system-ui;
+    font-size: 16px;
+    font-weight: 400;
+    flex-wrap: wrap;
+    padding: 0;
+    color: white;
+    list-style: none;
+    background-color:#16ac55;
+    text-transform: uppercase;
+
+   
+    
+    
+}
+li {
+    border-bottom: 1px solid white;
+    padding: 20px;
+    
+}
+.wea{
+    
+   
+}
+.main{
+    
+   
+}
+.cat{
+   
+   
+}
+.arch{
+    
+    
+}
+.naza{
+   
+    
+}
+.live{
+    
+    
+}
+.liv{
+    
+    
+}
+
+.box5{
+    grid-area: five;
+}
+.box6{
+    grid-area: six;
+}
+.box7{
+    grid-area: seven;
+}
+.box8{
+    grid-area: eight;
+}
+.box9 {
+    grid-area: nine;
+}
+.box10 {
+    grid-area: ten;
+}
+@media(max-width:500px){
+    .container {
+        grid-template-columns: 100%;
+
+        grid-template-areas:
+        "one"
+        "two"
+        "three"
+        "four"
+        "five"
+        "six"
+        "seven"
+        "eight"
+        "nine"
+        "ten";
+        }
+    }
