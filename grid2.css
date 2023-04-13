@@ -9,16 +9,13 @@ body {
     min-height: 1430px;
     font-size: 2rem;
     opacity: .5;
-    color: blue;
+    color: blue; 
 }
 
-@media(max-width:500px){
-
-}
 .container {
     display: grid;
-    grid-template-rows: minmax(111px,auto)  minmax(31px,auto)  minmax(94px,auto) minmax(77px,auto) minmax(414px,auto) minmax(195px,auto) minmax(494px,auto);
-     /*120px 31px 94px 77px 414px 195px 494px; */
+    grid-template-rows: minmax(120px,auto)  minmax(31px,auto)  minmax(94px,auto) minmax(77px,auto) minmax(414px,auto) minmax(195px,auto) minmax(494px,auto);
+   
     grid-template-areas:
     "one one one one"
    "two two two two"
@@ -28,7 +25,7 @@ body {
    "six six six six"
    "seven seven ten ten";
    grid-template-columns: minmax(20px,272px) minmax(20px,473px) minmax(20px,88px) minmax(20px,286px);
-   /*minmax(20px,272px) 474px 86px 287px;*/
+  
 
   
 }
@@ -41,7 +38,10 @@ body {
 .box2 {
     grid-area: two;
 }
-.box3{
+.box3 img{
+    margin-top: 13px;
+    height: 69px;
+    width: 263px;
     grid-area: three;
 }
 
@@ -109,4 +109,23 @@ ul {
 }
 .box10 {
     grid-area: ten;
+}
+
+
+@media(max-width:500px){
+    .container {
+        grid-template-columns: 100%;
+
+        grid-template-areas:
+        "one"
+        "two"
+        "three"
+        "four"
+        "five"
+        "six"
+        "seven"
+        "eight"
+        "nine"
+        "ten";
+        }
 }
