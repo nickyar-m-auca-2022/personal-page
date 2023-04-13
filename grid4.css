@@ -2,9 +2,8 @@
 * {
     margin: 0;
     box-sizing: border-box;
-}
-img:nth-of-type(1){
-    display: none;
+    
+
 }
 body {
     background-image: none;
@@ -16,18 +15,26 @@ body {
     opacity: .5;
     color: blue;
 }
+body > img:nth-of-type(1){
+    display: none;
+
+}
+body {
+    background-image: none;
+    opacity: 1;
+}
 .container {
     display: grid;
-    grid-template-rows: minmax(111px,auto)  minmax(31px,auto)  minmax(94px,auto) minmax(77px,auto) minmax(414px,auto) minmax(195px,auto) minmax(494px,auto);
+    grid-template-rows: minmax(120px,auto)  minmax(31px,auto)  minmax(94px,auto) minmax(77px,auto) minmax(414px,auto) minmax(195px,auto) minmax(494px,auto);
      /*120px 31px 94px 77px 414px 195px 494px; */
     grid-template-areas:
     "one one one one"
-    "four four four four"
+    "two two two two"
    "three eight eight eight"
-   "two two two two"
-   "five five five nine"
-   "six six six six"
-   "seven seven ten ten";
+   "four five five five"
+   "nine ten ten ten"
+   "nine seven seven seven"
+   "six six six six";
    grid-template-columns: minmax(20px,272px) minmax(20px,473px) minmax(20px,88px) minmax(20px,286px);
    /*minmax(20px,272px) 474px 86px 287px;*/
 
@@ -37,13 +44,19 @@ body {
     border: 2px dashed blue;
 }
 .box1 {
+   
     grid-area: one;
+   
+    
 }
 .box2 {
     grid-area: two;
 }
-.box3{
-    grid-area: three;
+.box3 img{
+    margin-top: 13px;
+    height: 69px;
+    max-width: 263px;
+    
 }
 
 .box4{
@@ -68,10 +81,7 @@ ul {
     list-style: none;
     background-color:#16ac55;
     text-transform: uppercase;
-
    
-    
-    
 }
 li {
     border-bottom: 1px solid white;
@@ -109,6 +119,16 @@ li {
 
 .box5{
     grid-area: five;
+    background-image: url(https://nazarnews.org/resize/no-crop/600/600//media/news_images/2023/04/06/News_225570188117856610766258836931072723569.jpeg);
+    color: #ffffff;
+    display: flex; 
+    align-items: center;
+    width: 847px;
+    height: 424px;
+    font-size: 2rem;
+    font-family: system-ui;
+    
+
 }
 .box6{
     grid-area: six;
