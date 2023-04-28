@@ -52,7 +52,7 @@ body {
     
     
 }
-ul {
+.box4 ul {
     display: flex;
     height: 100%;
     justify-content: center;
@@ -67,6 +67,7 @@ ul {
     
     
 }
+
 .wea{
     flex-basis: 339px;
     color: #000000;
@@ -100,6 +101,37 @@ ul {
 }
 .box7{
     grid-area: seven;
+
+}
+    .box7 > ul {
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        font-family: system-ui;
+        font-size: 16px;
+        font-weight: 400;
+        flex-wrap: wrap;
+        color: black;
+}
+.box7 p{
+    color: #074F7F;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.3;
+    padding-right: 10px;
+    font-style: normal;
+    font-family: System-ui;
+    
+    
+}
+
+.roz{
+    flex-basis: 200px;
+
+}
+.droz{
+    flex-basis: 200px;
 }
 .box8{
     grid-area: eight;
@@ -111,7 +143,7 @@ ul {
     grid-area: ten;
 }
 
-ul.box10 {
+.box10 > ul {
     display: flex;
     height: 100%;
     justify-content: center;
@@ -120,45 +152,48 @@ ul.box10 {
     font-size: 16px;
     font-weight: 400;
     flex-wrap: wrap;
-   color: white ;
+    /*color: #FFFFFF;*/
+    color: black;
     list-style: none;
-    background-color:#0A5181;
+    padding: 1rem;
+    /*background-color:#0A5181;*/
 }
 .yak{
-    flex-basis: 339px;
-    color: #FFFFFF;
+    flex-basis: 298px;
+    
     font-size: 16px;
    
 }
 .do{
-   flex-basis: 107px;
-   color: #FFFFFF;
+   flex-basis: 301px;
+  
 }
 .T1{
-    flex-basis: 128px;
+    flex-basis: 120px;
     font-size: 11.2px;
-    color: #FFFFFF;
+    justify-content: end;
+   
 }
 .sa{
-    flex-basis: 87px;
-    color: #FFFFFF;
+    flex-basis: 272px;
+   
 }
 .T2{
-    flex-basis: 99px;
+    flex-basis: 184px;
     font-size: 11.2px;
-    color: #FFFFFF;
+   
 }
 .char{
-    flex-basis: 159px;
+    flex-basis: 271px;
 }
 .T3{
-    flex-basis: 134px;
+    flex-basis: 212px;
     font-size: 11.2px;
-    color: #FFFFFF;
+    
 }
 .panj{
-    flex-basis: 134px;
-    color: #FFFFFF;
+    flex-basis: 273px;
+   
 }
 
 
