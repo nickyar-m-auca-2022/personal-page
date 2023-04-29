@@ -102,29 +102,67 @@ body {
 .box7{
     grid-area: seven;
 
+
 }
-    .box7 > ul {
-        display: flex;
-        height: 100%;
-        justify-content: center;
-        align-items: center;
-        font-family: system-ui;
-        font-size: 16px;
-        font-weight: 400;
-        flex-wrap: wrap;
-        color: black;
-}
-.box7 p{
-    color: #074F7F;
-    font-weight: 700;
+.box7 {
+    
+     width: 746px;
+     height: 494px;
+   }
+  .heading div {
+  /*   border: 2px dashed red; */
+  }
+  .heading {
+    display: flex;
+    justify-content: space-between;
+    
+    color: #0c58ca;
+    font-family: system-ui;
+    
+    border-bottom: 1px solid #0c58ca;
+  }
+  .heading .topic {
+    flex-basis: 200px;
+    font-size: 24px;
+  }
+  .heading .everything {
+    flex-basis: 100px;
     font-size: 16px;
-    line-height: 1.3;
+  }
+  
+  ul.news {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+    
+    font-family: system-ui;
+  }
+  ul.news > * {
+  /*   border: 2px solid yellow; */
+    padding-left: 10px;
+    padding-bottom: 10px;
+    width: 340px;
+    
+    display: flex;
+  }
+  ul.news .title {
+    color: #054f7f;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  ul.news .time {
+    color: #198754;
+    font-size: 13px;
+    padding-top: 30px;
+  }
+  
+  ul.news .photo {
     padding-right: 10px;
-    font-style: normal;
-    font-family: System-ui;
-    
-    
-}
+  }
+  
+
 
 .roz{
     flex-basis: 200px;
@@ -141,58 +179,68 @@ body {
 }
 .box10 {
     grid-area: ten;
+    height: 494px;
+    width: 373px;
 }
 
-.box10 > ul {
+.box10 ul {
     display: flex;
-    height: 100%;
+    /*height: 100%;*/
     justify-content: center;
+    flex-direction: column;
     align-items: center;
     font-family: system-ui;
     font-size: 16px;
-    font-weight: 400;
+   /* font-weight: 400;*/
     flex-wrap: wrap;
     /*color: #FFFFFF;*/
     color: black;
     list-style: none;
-    padding: 1rem;
+    padding: 3rem;
     /*background-color:#0A5181;*/
 }
+
 .yak{
-    flex-basis: 298px;
+    flex-basis: 98px;
+   
     
     font-size: 16px;
    
 }
+
+.now{
+    flex-basis: 20px;
+    
+}
 .do{
-   flex-basis: 301px;
+   flex-basis: 48px;
   
 }
 .T1{
-    flex-basis: 120px;
+    flex-basis: 52px;
     font-size: 11.2px;
     justify-content: end;
    
 }
 .sa{
-    flex-basis: 272px;
+    flex-basis: 59px;
    
 }
 .T2{
-    flex-basis: 184px;
+    flex-basis: 50px;
     font-size: 11.2px;
    
 }
 .char{
-    flex-basis: 271px;
+    flex-basis: 53px;
 }
 .T3{
-    flex-basis: 212px;
+    flex-basis: 38px;
     font-size: 11.2px;
     
 }
 .panj{
-    flex-basis: 273px;
+    flex-basis: 61px;
    
 }
 
