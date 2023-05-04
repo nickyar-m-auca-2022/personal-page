@@ -105,9 +105,10 @@ body {
 
 }
 .box7 {
+  grid-area: seven;
     
-     width: 746px;
-     height: 494px;
+     max-width: 746px;
+     min-height: 494px;
      padding-left: 13px;
    }
   .heading div {
@@ -173,28 +174,28 @@ ul.news .main1{
     padding-left: 7px;
    
   }
-  .span .time1{
+  .time1 span{
     font-size: 14px;
   }
 
-.span .time2{
+.time2 span{
   font-size: 16px;
   padding-left: 2px;
   
 }
-.span .time3{
+.time3 span{
   font-size: 14px;
   padding-left: 5px;
 }
-.span .time4{
+.time4 span{
   font-size: 14px;
   padding-left: 6px;
 }
-.span .time5{
+.time5 span{
   font-size: 14px; 
   padding-left: 9px;
 }
-.span .time6{
+ .time6 span{
   font-size: 14px;
   padding-left: 10px;
 
@@ -294,7 +295,7 @@ ul.news .title5 {
 ul.news .time5 {
   color: #198754;
   font-size: 13px;
-  padding-top: 13px;
+  padding-top: 12px;
   padding-left: 6px;
  
 }
@@ -346,8 +347,8 @@ ul.news .photo6 {
 }
 .box10 {
     grid-area: ten;
-    height: 494px;
-    width: 373px;
+    min-height: 494px;
+    max-width: 373px;
 }
 
 .box10 ul {
@@ -379,7 +380,7 @@ ul.news .photo6 {
    flex-basis: 53px;
    padding-top: 8px;
    line-height: 24px;
-   width: 278px;
+   max-width: 278px;
   
 }
 .T1{
