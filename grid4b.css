@@ -100,6 +100,8 @@ li {
     height: 424px;
     font-size: 2rem;
     font-family: system-ui;
+    background-size: cover;
+    background-repeat: no-repeat;
     
 
 }
@@ -199,30 +201,37 @@ li {
     grid-area: ten;
 }
 
-.box10  {
-    display: flex;
-    height: 400px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: system-ui;
-    font-size: 16px;
-    font-weight: 400;
-    flex-wrap: wrap;
-   color: white ;
-    list-style: none;
-    background-color:#0A5181;
-   
-    box-sizing: border-box;
-   
+    .box10 ul {
+        display: flex;
+        height: 400px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: system-ui;
+        font-size: 16px;
+        font-weight: 400;
+        flex-wrap: wrap;
+       color: white ;
+        list-style: none;
+        background-color:#0A5181;
+        padding: 1rem;
+        box-sizing: border-box;
 }
-.box10 .pic1 img{
-    background-blend-mode: multiply;
+.box10 .photo1 img{
+    /*background-blend-mode: multiply;*/
 }
+.box10 .yak{
+    width: 200px;
+}
+.box10 .do2{
+    width: 200px;
+}
+.box10 .sa3{
+    width: 200px;
 
 
 
-
+}
 
 @media(max-width:500px){
     .container {
