@@ -1,0 +1,447 @@
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    
+
+}
+body {
+    background-image: none;
+    opacity: 1;
+    background-repeat: no-repeat;
+    max-width: 1121px;
+    min-height: 1430px;
+    font-size: 2rem;
+    opacity: .5;
+    color: blue;
+}
+body > img:nth-of-type(1){
+    display: none;
+
+}
+body {
+    background-image: none;
+    opacity: 1;
+}
+.container {
+    display: grid;
+    grid-template-rows: minmax(120px,auto)  minmax(31px,auto)  minmax(94px,auto) minmax(77px,auto) minmax(414px,auto) minmax(195px,auto) minmax(494px,auto);
+     /*120px 31px 94px 77px 414px 195px 494px; */
+    grid-template-areas:
+    "one one one one"
+    "two two two two"
+   "three eight eight eight"
+   "four five five five"
+   "nine ten ten ten"
+   "nine seven seven seven"
+   "six six six six";
+   grid-template-columns: minmax(20px,272px) minmax(20px,473px) minmax(20px,88px) minmax(20px,286px);
+   /*minmax(20px,272px) 474px 86px 287px;*/
+
+  
+}
+.container > * {
+    border: 2px dashed blue;
+}
+.box1 {
+   
+    grid-area: one;
+    background-image: url(https://nazarnews.org/static/app/images/banner-static/new_banner_2023.png);
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 121px;
+   
+    
+}
+.box2 {
+    grid-area: two;
+}
+.box3 img{
+    margin-top: 18px;
+    height: 56px;
+    max-width: 257px;
+    
+}
+
+.box4{
+    grid-area: four;
+}
+.box4{
+    
+    
+}
+.box4 ul {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+    /* align-items: center; */
+    font-family: system-ui;
+    font-size: 16px;
+    font-weight: 400;
+    flex-wrap: wrap;
+    padding: 0;
+    color: white;
+    list-style: none;
+    background-color:#16ac55;
+    text-transform: uppercase;
+   
+}
+li {
+    border-bottom: 1px solid white;
+    padding: 20px
+    
+}
+
+.box5{
+    grid-area: five;
+    background-image: url(https://nazarnews.org/resize/no-crop/600/600//media/news_images/2023/04/06/News_225570188117856610766258836931072723569.jpeg);
+    color: #ffffff;
+    display: flex; 
+    align-items: center;
+    justify-content: space-evenly;
+    width: 847px;
+    height: 424px;
+    font-size: 2rem;
+    font-family: system-ui;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 847px;
+    height: 424px;
+    
+
+}
+.box6{
+    grid-area: six;
+    background-image: url(https://nazarnews.org/static/app/images/ads/2_00000.png);
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 198px;
+
+
+}
+.box7{
+    grid-area: seven;
+}
+/*.box7 p{
+    /*color: #074F7F;*/
+    /* font-weight: 700;
+    font-size: 16px;
+    line-height: 1.3;
+    padding-right: 10px;
+    font-style: normal;
+    font-family: System-ui;
+}*/
+    .heading div {
+        /*   border: 2px dashed red; */
+        }
+        .heading {
+          display: flex;
+          justify-content: space-between;
+          color: #074F7F;
+          font-family: System-ui;;
+          padding-left: 21px;
+          padding-top: 18px;
+          padding-bottom: 16px;
+          padding-right: 39px;
+
+          
+          
+        }
+        .heading .topic {
+          flex-basis: 200px;
+          font-size: 24px;
+        }
+        .heading .everything {
+          flex-basis: 100px;
+          font-size: 16px;
+        }
+        
+        ul.news {
+          display: flex;
+          flex-wrap: wrap;
+          list-style-type: none;
+          padding: 0;
+          
+          font-family: System-ui;
+        }
+        ul.news > * {
+          padding-left: 10px;
+          padding-bottom: 10px;
+          width: 260px;
+          display: flex; 
+          align-items: center;
+          flex-direction: column;
+          font-size: 12px;
+          border: 1px solid gray;
+          margin: 10px;
+          box-shadow: 10px 10px 10px green;
+        }
+        ul.news .title1 {
+          color: #074F7F;
+          font-size: 14px;
+          padding-left: 28px;
+          padding-top: 13px;
+          
+        }
+        ul.news .time1 {
+          color: #198754;
+          font-size: 17px;
+          padding-left: 37px;
+          padding-top: 24px;
+          font-family: fantasy;
+
+          
+        }
+    
+        ul.news .title2 {
+        color: #074F7F;
+        font-size: 14px;
+        padding-left: 28px;
+        padding-top: 10px;
+    }
+       ul.news .time2 {
+       color: #198754;
+       font-size: 17px;
+       padding-left: 37px;
+       font-family: fantasy;
+       padding-top: 10px;
+
+      
+    }
+    ul.news .title3 {
+        color: #074F7F;
+        font-size: 14px;
+        padding-left: 28px;
+        padding-top: 10px;
+        
+      }
+      ul.news .time3 {
+        color: #198754;
+        font-size: 17px;
+        padding-left: 41px;
+        font-family: fantasy;
+        padding-top: 10px;
+
+        
+      }
+      ul.news .title4 {
+        color: #074F7F;
+        font-size: 14px;
+        padding-left: 28px;
+        padding-top: 10px;
+        
+      }
+      ul.news .time4 {
+        color: #198754;
+        font-size: 17px;
+        padding-left: 37px;
+        font-family: fantasy;
+        padding-top: 24px;
+
+      }
+        ul.news .title5 {
+        color: #074F7F;
+        font-size: 14px;
+        padding-left: 28px;
+        padding-top: 10px;
+        
+      }
+      ul.news .time5 {
+        color: #198754;
+        font-size: 17px;
+        padding-left: 37px;
+        font-family: fantasy;  
+        padding-top:10px ;
+      }
+      ul.news .title6 {
+        color: #074F7F;
+        font-size: 14px;
+        padding-left: 28px;
+        padding-top: 10px;
+        
+      }
+      ul.news .time6 {
+        color: #198754;
+        font-size: 17px;
+        padding-left: 37px;
+        font-family: fantasy;  
+        padding-top: 10px;
+      }
+  
+  
+       
+      
+  
+        ul.news .photo1 img {
+            height: 140px;
+        
+        }
+        
+        ul.news .photo2 img {
+            height: 140px;
+        }
+    
+       ul.news .photo3 img {
+        height: 140px;
+      }
+      ul.news .photo4 img {
+        height: 140px;
+      }
+      ul.news .photo5 img {
+        height: 140px;
+      }
+      ul.news .photo6 img {
+        height: 140px;
+    }
+      .box8{
+     grid-area: eight;
+     min-width: 846px;
+    max-height: 95px;
+}
+.box8 ul{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    font-family: system-ui;
+    font-size: 16px;
+    font-weight: 400;
+    flex-wrap: wrap;
+    color: #585c5e;
+    list-style: none;
+}
+ul.box8 img{
+    height: 20px;
+}
+.ma1{
+    flex-basis: 107px;
+}
+.ma2{
+    flex-basis: 107px;
+}
+.ma3{
+    flex-basis: 107px;
+}
+.ma4{
+    flex-basis: 107px;
+}
+
+    .box9 {
+    grid-area: nine;
+    background-image: url(https://imgur.com/a/jsSFG4w.png);
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 121px;
+   
+  }
+  
+   .box10 {
+    grid-area: ten;
+}
+
+    .box10 ul {
+        display: flex;
+        
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: system-ui;
+        font-size: 16px;
+        font-weight: 400;
+       
+       color: white ;
+        list-style: none;
+        background-color:#0A5181;
+        padding: 1rem;
+        box-sizing: border-box;
+}
+.box10 li.yak{
+    border-bottom: none;
+    font-size: 28px;
+    text-transform: uppercase;
+    border: 2px solid white;
+    margin-bottom: 30px;
+
+}
+
+.box10 li.do{
+    background-image: url(https://unsplash.it/500/200?3);
+    max-width: 500px;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-blend-mode:multiply;
+    background-color: gray;
+    font-size: 32px;
+    text-align: center;
+
+
+}
+.box10 li.sa{
+    background-image: url(https://unsplash.it/500/200?4);
+    max-width: 500px;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-blend-mode:multiply;
+    background-color: gray;
+    font-size: 32px;
+    text-align: center;
+
+}
+.box10 li.char{
+    background-image: url(https://unsplash.it/500/200?1);
+    max-width: 500px;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-blend-mode:multiply;
+    background-color: gray;
+    font-size: 32px;
+    text-align: center;
+
+}
+.box10 li.panj{
+    background-image: url(https://unsplash.it/500/200?2);
+    max-width: 500px;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-blend-mode:multiply;
+    background-color: gray;
+    font-size: 32px;
+    text-align: center;
+
+}
+
+
+
+
+@media(max-width:500px){
+    .container {
+        grid-template-columns: 100%;
+
+        grid-template-areas:
+        "one"
+        "two"
+        "three"
+        "four"
+        "five"
+        "six"
+        "seven"
+        "eight"
+        "nine"
+        "ten";
+        }
+    }
+
+
