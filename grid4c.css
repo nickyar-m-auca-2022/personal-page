@@ -58,18 +58,48 @@ body {
     grid-area: two;
 }
  .box2 ul{
-        display: flex;
-        height: 100%;
-        justify-content: center;
-        align-items: center;
-        font-family: system-ui;
-        font-size: 16px;
-        font-weight: 400;
-        flex-wrap: wrap;
-        color: #585c5e;
-        list-style: none;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    font-family: system-ui;
+    font-size: 12px;
+    font-weight: 400;
+    flex-wrap: wrap;
+    color: #585c5e;
+    list-style: none;
+    padding: 0px;
+    background:#084F7E;
     
 }
+.naan1{
+  
+  flex-basis: 114px;
+  color: #FFFFFF ;
+  }
+  .naan2{
+    flex-basis: 150px;
+    color: #00A651;
+    }
+    .naan3{
+
+      flex-basis: 294px;  
+      color: #FFFFFF;
+      }
+      .naan4{
+        
+        flex-basis: 155px;
+        color: #00A651;
+        }
+        .naan5{
+          
+          flex-basis: 276px;
+          color: #FFFFFF;
+          }
+          .naan6{
+           flex-basis: 115px;
+            color: #00A651;
+            }
+
 .box3 img{
     margin-top: 18px;
     height: 56px;
@@ -318,8 +348,7 @@ li {
 .box8 ul{
     display: flex;
     flex-direction: row;
-    height: 100%;
-    justify-content: center;
+    height: 100%;    
     align-items: center;
     font-family: system-ui;
     font-size: 16px;
@@ -329,19 +358,34 @@ li {
     list-style: none;
 }
 ul.box8 img{
-    height: 20px;
+  height: 20px;
 }
 .ma1{
-    flex-basis: 107px;
+  flex-basis: 176px;
+  padding-bottom: 24px;
 }
+ul.box8 .ma2 span{
+color: green;
+}
+
 .ma2{
-    flex-basis: 107px;
+  flex-basis: 157px;
+  font-size: 14px;
+  padding-left: 11px;
+  padding-bottom: 21px;
 }
 .ma3{
-    flex-basis: 107px;
+  flex-basis: 169px;
+  padding-bottom: 21px;
+  padding-left: 10px;
+  font-size: 14px;
 }
 .ma4{
-    flex-basis: 107px;
+  flex-basis: 168px;
+
+
+
+
 }
 
     .box9 {
