@@ -36,8 +36,60 @@ body {
     grid-area: one;
 }
 .box2 {
-    grid-area: two;
+   grid-area: two;
+
 }
+.naan1{
+padding-top: 2px;
+padding-left: 1px;
+flex-basis: 91px;
+color: #FFFFFF ;
+}
+.naan2{
+ font-size: 18px;
+  padding-right: 2px;
+  flex-basis: 153px;
+  color: #00A651;
+  }
+  .naan3{
+    padding-top: 2px;
+    flex-basis: 330px;
+    font-size: 17px;
+    color: #FFFFFF;
+    }
+    .naan4{
+      padding-top: 3px;
+      padding-left: 1px;
+      flex-basis: 159px;
+      font-size: 17;
+      color: #00A651;
+      }
+      .naan5{
+        padding-top: 3px;
+        flex-basis: 292px;
+        font-size: 16px;
+        color: #FFFFFF;
+        }
+        .naan6{
+          padding-top: 2px;
+          font-size: 16px;
+          color: #00A651;
+          }
+
+.box2 ul{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    font-family: system-ui;
+    font-size: 16px;
+    font-weight: 400;
+    flex-wrap: wrap;
+    color: #585c5e;
+    list-style: none;
+    padding: 0px;
+
+}
+
 .box3 img{
     margin-top: 18px;
     height: 56px;
@@ -95,9 +147,28 @@ body {
 
 .box5{
     grid-area: five;
+    background-image: url(https://nazarnews.org/resize/no-crop/600/600//media/news_images/2023/04/06/News_225570188117856610766258836931072723569.jpeg);
+    color: #ffffff;
+    display: flex; 
+    align-items: center;
+    justify-content: space-evenly;
+    width: 847px;
+    height: 424px;
+    font-size: 2rem;
+    font-family: system-ui;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 836px;
+    height: 414px;
+    padding: 79px;
 }
 .box6{
     grid-area: six;
+    background-image: url(https://nazarnews.org/static/app/images/ads/2_00000.png);
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 195px;
 }
 .box7{
   
@@ -350,7 +421,6 @@ ul.news .photo6 {
     display: flex;
     flex-direction: row;
     height: 100%;
-    justify-content: center;
     align-items: center;
     font-family: system-ui;
     font-size: 16px;
@@ -358,27 +428,39 @@ ul.news .photo6 {
     flex-wrap: wrap;
     color: #585c5e;
     list-style: none;
+    padding-left: 36px;
 }
 ul.box8 img{
     height: 20px;
 }
 .ma1{
-    flex-basis: 107px;
+    flex-basis: 176px;
+    padding-bottom: 24px;
 }
+ul.box8 .ma2 span{
+color: green;
+}
+
 .ma2{
-    flex-basis: 107px;
+    flex-basis: 157px;
+    font-size: 14px;
+    padding-left: 11px;
+    padding-bottom: 21px;
 }
 .ma3{
-    flex-basis: 107px;
+    flex-basis: 169px;
+    padding-bottom: 21px;
+    padding-left: 10px;
+    font-size: 14px;
 }
 .ma4{
-    flex-basis: 107px;
+    flex-basis: 168px;
 }
 .box9 {
     grid-area: nine;
-    background-image: url(https://imgur.com/a/jsSFG4w.png);
+    background-image: url(https://i.imgur.com/WmZhkY0.png );
     display: flex;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     min-height: 121px;
    
