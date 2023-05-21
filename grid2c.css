@@ -435,27 +435,43 @@ ul.box8 img{
     height: 20px;
 }
 .ma1{
-    flex-basis: 176px;
-    padding-bottom: 24px;
+    /*flex-basis: 176px;*/
+    padding-top: 28px;
 }
-ul.box8 .ma2 span{
-color: green;
-}
+
 
 .ma2{
     flex-basis: 157px;
     font-size: 14px;
     padding-left: 11px;
-    padding-bottom: 21px;
+    padding-top: 5px;
+}
+.ma2 span {
+  color: green;
 }
 .ma3{
     flex-basis: 169px;
-    padding-bottom: 21px;
+    padding-top: 4px;
     padding-left: 10px;
     font-size: 14px;
 }
+.ma3 span{
+  color: #198754;
+}
 .ma4{
-    flex-basis: 168px;
+    flex-basis: 304px;
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    padding-top: 4px;
+}
+span.ma44 {
+  flex-basis: 155px;
+  padding-left: 3px;
+  color: red;
+}
+.ma4 img {
+  padding-bottom: 10px;
 }
 .box9 {
     grid-area: nine;
