@@ -106,6 +106,9 @@ color: #FFFFFF ;
   max-width: 257px;
   
 }
+.box3 {
+  grid-area: three;
+}
 
 .box4{
   grid-area: four;
@@ -356,32 +359,50 @@ li {
   flex-wrap: wrap;
   color: #585c5e;
   list-style: none;
+  padding: 27px;
 }
 ul.box8 img{
 height: 20px;
 }
 .ma1{
-flex-basis: 176px;
-padding-bottom: 24px;
-}
-ul.box8 .ma2 span{
-color: green;
+  /*flex-basis: 176px;*/
+  padding-top: 4px;
 }
 
+
 .ma2{
-flex-basis: 157px;
-font-size: 14px;
-padding-left: 11px;
-padding-bottom: 21px;
+  flex-basis: 181px;
+  font-size: 14px;
+  padding-left: 16px;
+  padding-top: 5px;
+}
+.ma2 span {
+color: green;
 }
 .ma3{
-flex-basis: 169px;
-padding-bottom: 21px;
-padding-left: 10px;
-font-size: 14px;
+  flex-basis: 185px;
+  padding-top: 4px;
+  padding-left: 15px;
+  font-size: 14px;
+}
+.ma3 span{
+color: #198754;
 }
 .ma4{
-flex-basis: 168px;
+  flex-basis: 309px;
+  display: flex;
+  font-size: 14px;
+  align-items: center;
+  padding-top: 4px;
+  padding-left: 5px;
+}
+span.ma44 {
+flex-basis: 155px;
+padding-left: 3px;
+color: red;
+}
+.ma4 img {
+padding-bottom: 10px;
 
 
 
@@ -503,10 +524,13 @@ display: none;
   "nine"
   "ten";
   }
+  .box4 {
+    display: none;
+  }
 .buttonMenu {
   display: block;
   position: fixed; /* "fixed" elements will always stay in same place even when user scrolls */
-  top: 0px; /* fix the element 0px from top of browser window */
+  top: 5px; /* fix the element 0px from top of browser window */
   right: 0; /* fix the element 0px from right of browser window */
 }
 .box4.mobileMenu {
@@ -520,11 +544,4 @@ display: none;
 
 .buttonMenu img{
 width: 20px;
-}
-
-.stylechanger {
-display: block;
-position: fixed; /* "fixed" elements will always stay in same place even when user scrolls */
-top: 50px; /* fix the element 0px from top of browser window */
-right: 0; /* fix the element 0px from right of browser window */
 }
