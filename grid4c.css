@@ -134,7 +134,7 @@ color: #FFFFFF ;
   text-transform: uppercase;
  
 }
-li {
+.box4 li {
   border-bottom: 1px solid white;
   padding: 20px
   
@@ -147,14 +147,12 @@ li {
   display: flex; 
   align-items: center;
   justify-content: space-evenly;
-  width: 847px;
-  height: 424px;
+  max-width: 847px;
+  height: 100%;
   font-size: 2rem;
   font-family: system-ui;
   background-size: cover;
   background-repeat: no-repeat;
-  width: 847px;
-  height: 424px;
   padding: 79px;
   
 
@@ -165,7 +163,7 @@ li {
   display: flex;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 198px;
+  max-height: 198px;
 
 
 }
@@ -345,8 +343,8 @@ li {
   }
     .box8{
    grid-area: eight;
-   min-width: 846px;
-  max-height: 95px;
+   max-width: 846px;
+  
 }
 .box8 ul{
   display: flex;
@@ -359,42 +357,44 @@ li {
   flex-wrap: wrap;
   color: #585c5e;
   list-style: none;
-  padding: 27px;
+  /*padding: 27px;*/
+  
 }
 ul.box8 img{
 height: 20px;
 }
+
+  
 .ma1{
-  /*flex-basis: 176px;*/
-  padding-top: 4px;
+  flex-basis: 178px;
+  padding-top: 3px;
 }
 
 
 .ma2{
-  flex-basis: 181px;
+  flex-basis: 172px;
   font-size: 14px;
-  padding-left: 16px;
-  padding-top: 5px;
+  /*padding-left: 16px;*/
+  /*padding-top: 4px;*/
+  padding: 0px;
 }
 .ma2 span {
 color: green;
 }
 .ma3{
-  flex-basis: 185px;
-  padding-top: 4px;
-  padding-left: 15px;
+  flex-basis: 147px;
+  padding: 0px;
   font-size: 14px;
 }
 .ma3 span{
 color: #198754;
 }
 .ma4{
-  flex-basis: 309px;
+  flex-basis: 305px;
   display: flex;
   font-size: 14px;
   align-items: center;
-  padding-top: 4px;
-  padding-left: 5px;
+  padding: 0px;
 }
 span.ma44 {
 flex-basis: 155px;

@@ -94,7 +94,7 @@ color: #00A651;
 .box3 img{
   margin-top: 18px;
   height: 56px;
-  width: 257px;
+  max-width: 257px;
   grid-area: three;
 }
 
@@ -153,14 +153,13 @@ color: #00A651;
   display: flex; 
   align-items: center;
   justify-content: space-evenly;
-  width: 847px;
-  height: 424px;
+  max-width: 847px;
+  height: 100%;
   font-size: 2rem;
   font-family: system-ui;
   background-size: cover;
   background-repeat: no-repeat;
-  width: 836px;
-  height: 414px;
+  max-width: 836px;
   padding: 79px;
 }
 .box6{
@@ -169,13 +168,9 @@ color: #00A651;
   display: flex;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 195px;
+  max-height: 195px;
 }
-.box7{
 
-
-
-}
 .box7 {
 grid-area: seven;
   
@@ -480,7 +475,7 @@ span.ma44 {
   display: flex;
   background-size: contain;
   background-repeat: no-repeat;
-  min-height: 121px;
+  max-height: 415px;
  
 }
 .box10 {
