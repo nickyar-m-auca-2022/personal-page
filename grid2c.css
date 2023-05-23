@@ -34,6 +34,11 @@ body {
 }
 .box1 {
   grid-area: one;
+  background-image: url(https://nazarnews.org/static/app/images/banner-static/new_banner_2023.png);
+  display: flex;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-height: 100%;
 }
 .box2 {
  grid-area: two;
@@ -92,9 +97,9 @@ color: #00A651;
 }
 
 .box3 img{
-  margin-top: 18px;
-  height: 56px;
-  max-width: 257px;
+  margin-top: 21px;
+  max-width: 100%;
+  margin-left: -7px;
   grid-area: three;
 }
 
@@ -161,6 +166,8 @@ color: #00A651;
   background-repeat: no-repeat;
   max-width: 836px;
   padding: 79px;
+  background-color: gray;
+  background-blend-mode:multiply ;
 }
 .box6{
   grid-area: six;
@@ -408,7 +415,6 @@ padding-right: 10px;
 }
 .box8 {
   grid-area: eight;
-  min-width: 846px;
   max-height: 95px;
 }
 .box8 ul{

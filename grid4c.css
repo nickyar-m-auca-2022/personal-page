@@ -50,7 +50,7 @@ body {
   display: flex;
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 121px;
+  max-height: 100%;
  
   
 }
@@ -102,8 +102,8 @@ color: #FFFFFF ;
 
 .box3 img{
   margin-top: 18px;
-  height: 56px;
-  max-width: 257px;
+  max-width: 100%;
+  padding-right: 10px;
   
 }
 .box3 {
@@ -154,6 +154,8 @@ color: #FFFFFF ;
   background-size: cover;
   background-repeat: no-repeat;
   padding: 79px;
+  background-color: gray;
+  background-blend-mode:multiply ;
   
 
 }
